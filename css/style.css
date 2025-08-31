@@ -15,6 +15,7 @@ body{
 header{
   max-height: 95vh;
   position: relative;
+  z-index: 10;
 }
 
 header::after{
