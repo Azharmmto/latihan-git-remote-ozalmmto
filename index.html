@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja - Nikmati Setiap Tegukan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-[#F5F0E1] text-[#4A3F35]">
+
+    <!-- Header & Hero Section -->
+    <header class="bg-cover bg-center bg-fixed h-screen relative" style="background-image: url('https://placehold.co/1920x1080/c4a484/333333?text=Suasana+Kedai');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="container mx-auto px-6 h-full flex flex-col justify-center items-center text-center relative z-10">
+            <h1 class="text-5xl md:text-7xl text-white font-bold leading-tight mb-4">
+                Selamat Datang di Kopi Senja
+            </h1>
+            <p class="text-xl text-gray-200 max-w-2xl mb-8">
+                Secangkir ketenangan dan kebahagiaan di setiap tegukan. Kami menyajikan kopi terbaik dari biji pilihan nusantara.
+            </p>
+            <a href="#menu" class="bg-[#A0522D] text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-[#804224] transition duration-300">
+                Lihat Menu Kami
+            </a>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <main id="menu" class="py-20 bg-[#E9E2D0]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-[#A0522D]">Menu Andalan Kami</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Menu Item 1: Americano -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/512a15/ffffff?text=Americano" alt="Gambar Kopi Americano" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-[#4A3F35]">Americano</h3>
+                        <p class="text-gray-600 mb-4">
+                            <strong class="text-gray-800">Resep:</strong> Terbuat dari satu shot espresso murni yang dilarutkan dengan air panas. Menghasilkan rasa kopi yang kuat, kaya, namun tetap halus.
+                        </p>
+                        <p class="text-lg font-bold text-[#A0522D]">
+                            Harga: Rp 20.000
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2: Kopi Gula Aren -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/8d5524/ffffff?text=Kopi+Gula+Aren" alt="Gambar Kopi Gula Aren" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-[#4A3F35]">Kopi Susu Gula Aren</h3>
+                        <p class="text-gray-600 mb-4">
+                            <strong class="text-gray-800">Resep:</strong> Perpaduan sempurna antara espresso, susu segar, dan manisnya gula aren asli. Pilihan tepat untuk menemani hari Anda dengan rasa creamy yang khas.
+                        </p>
+                        <p class="text-lg font-bold text-[#A0522D]">
+                            Harga: Rp 25.000
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3: Caffe Latte -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/c4a484/333333?text=Caffe+Latte" alt="Gambar Caffe Latte" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-[#4A3F35]">Caffè Latte</h3>
+                        <p class="text-gray-600 mb-4">
+                            <strong class="text-gray-800">Resep:</strong> Espresso yang lembut berpadu dengan steamed milk (susu yang dihangatkan) dan lapisan tipis busa di atasnya. Sempurna untuk pecinta kopi yang lebih ringan.
+                        </p>
+                        <p class="text-lg font-bold text-[#A0522D]">
+                            Harga: Rp 28.000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Benefits Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4 text-[#A0522D]">Manfaat Secangkir Kopi</h2>
+            <p class="text-gray-700 max-w-3xl mx-auto mb-10">
+                Selain rasanya yang nikmat, kopi juga memiliki berbagai manfaat baik bagi tubuh jika dikonsumsi dengan bijak.
+            </p>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div class="max-w-xs text-center">
+                    <div class="mb-4">
+                        <svg class="w-16 h-16 mx-auto text-[#A0522D]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Meningkatkan Energi</h4>
+                    <p class="text-gray-600">Kafein dapat memblokir adenosin, neurotransmitter yang membuat Anda mengantuk, sehingga meningkatkan energi dan kewaspadaan.</p>
+                </div>
+                <div class="max-w-xs text-center">
+                    <div class="mb-4">
+                        <svg class="w-16 h-16 mx-auto text-[#A0522D]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Kaya Antioksidan</h4>
+                    <p class="text-gray-600">Biji kopi mengandung antioksidan tinggi yang dapat membantu melindungi sel-sel tubuh dari kerusakan.</p>
+                </div>
+                <div class="max-w-xs text-center">
+                    <div class="mb-4">
+                        <svg class="w-16 h-16 mx-auto text-[#A0522D]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Meningkatkan Mood</h4>
+                    <p class="text-gray-600">Kopi dapat merangsang sistem saraf pusat dan meningkatkan produksi neurotransmitter seperti dopamin, yang dapat memperbaiki suasana hati.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#4A3F35] py-8">
+        <div class="container mx-auto px-6 text-center text-gray-300">
+            <p>&copy; 2025 Kopi Senja. Hak Cipta Dilindungi.</p>
+            <p class="text-sm mt-2">Jl. Kenangan No. 123, Jakarta, Indonesia</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-white transition-colors duration-300">Facebook</a>
+                <a href="#" class="hover:text-white transition-colors duration-300">Instagram</a>
+                <a href="#" class="hover:text-white transition-colors duration-300">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
