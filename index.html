@@ -25,7 +25,7 @@
             <a href="#menu" class="bg-[#A0522D] text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-[#804224] transition duration-300">
                 Lihat Menu Kami
             </a>
-            <img src="icon/scroll-icon-white.svg" alt="Scroll Icons Bottom" class="absolute bottom-10 w-5 h-5 animate-bounce">
+            <img id="scroll-icon" src="icon/scroll-icon-white.svg" alt="Scroll Icons Bottom" class="absolute bottom-10 w-5 h-5 animate-bounce transition-opacity duration-300">
         </div>
     </header>
 
@@ -125,6 +125,18 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const scrollIcon = document.getElementById('scroll-icon');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                scrollIcon.classList.add('opacity-0');
+            } else {
+                scrollIcon.classList.remove('opacity-0');
+            }
+        });
+    </script>
 
 </body>
 </html>
