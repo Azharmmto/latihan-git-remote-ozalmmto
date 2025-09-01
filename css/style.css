@@ -13,7 +13,6 @@ body{
 }
 
 header{
-  max-height: 95vh;
   position: relative;
   z-index: 10;
 }
@@ -35,6 +34,10 @@ header h1 span {
 
 header p{
   margin: 20px 0 20px 0;
+}
+
+header img{
+  color: #ffffff;
 }
 
 h1, h2, h3 {
